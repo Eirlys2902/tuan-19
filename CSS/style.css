@@ -689,7 +689,7 @@ body{
                 margin: 0 auto;
                 display: flex;
                 
-                gap: 32px;
+                gap: 64px;
                 .left{
                     max-width: 608px;
                     display: flex;
