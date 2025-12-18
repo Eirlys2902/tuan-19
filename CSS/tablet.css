@@ -66,9 +66,9 @@
                                         }
                                     }
                                 }
-                                .content-hov{
+                                .content-hover{
                                     max-width: 230px;
-                                    .head{
+                                    .title-hov{
                                         font-size: 20px;
                                     }
                                 }
@@ -167,12 +167,12 @@
     }
     .section-5{
         .wrap{
-            .title{
+            .heading{
                 width: 980px;
             }
             .content{
                 max-width: 980px;
-                .container{
+                .wrap-cont{
 
                     .left{
                         gap: 28px;
@@ -268,7 +268,7 @@
             }
         }
         .footer-bottom{
-            .main{
+            .container{
                 max-width: 980px;
                 .wrap{
                     max-width: 960px;

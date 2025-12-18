@@ -67,13 +67,9 @@ body{
             background-color: #FFFFFF;
             border-radius: 50px;
             color: #101828;
+            font-weight: 600;
             align-content: center;
             text-align: center;
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 24px;
-            letter-spacing: 0%;
-
         }
         #hbg{
             display: none;
@@ -288,6 +284,8 @@ body{
                                     font-size: 25px;
                                     font-weight: 500;
                                     color: #FFFFFF;
+                                    display: flex;
+                                    justify-content: center;
                                 }
                                 .icon{
                                     height: 30px;
@@ -298,12 +296,12 @@ body{
                                 width: 100%;
                                 margin: 0 auto;
                                 text-align: center;
-                                .title{
+                                .title-hov{
                                     font-weight: 700;
                                     font-size: 32px;
                                     color: #FFFFFF;
                                 }
-                                .text{
+                                .text-hov{
                                     font-weight: 400;
                                     font-size: 16px;
                                     color: #FFFFFF;
@@ -655,7 +653,7 @@ body{
         gap: 64px;
         width: 100%;
         max-width: 1280px;
-        .title{
+        .heading{
             align-content: center;
             width: 1280px;;
             margin: 0 auto;
@@ -686,8 +684,8 @@ body{
             height: 649px;
             margin:  0 auto;
             align-content: center;
-            .container{
-                max-width: 1216px;
+            .wrap-cont{
+                max-width: 1280px;
                 margin: 0 auto;
                 display: flex;
                 
@@ -706,6 +704,7 @@ body{
                     .sub-container{
                         display: flex;
                         flex-direction: column;
+                        border-top: 1px solid black;
                         gap: 32px;
                         .top{
                             margin-top: 33px;
@@ -713,7 +712,8 @@ body{
                             font-size: 18px;
                             color: #667085;
                             span{
-                                text-decoration: line-through;
+                                text-decoration: underline;
+                                text-underline-offset: 5px;
                             }
                         }
                         .bottom{
@@ -1091,11 +1091,13 @@ footer{
         .main-bt{
             width: 100%;
             max-width: 1280px;
-            margin: 0 auto;
             padding-top: 32px;
+            border-top: 1px solid white;
+            margin: 0 auto;
             .wrap{
                 width: 100%;
                 max-width: 1216px;
+                margin: 0 auto;
                 display: flex;
                 justify-content: space-between;
                 .left{
