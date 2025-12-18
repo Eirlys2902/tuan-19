@@ -713,7 +713,7 @@ body{
                             font-size: 18px;
                             color: #667085;
                             span{
-                                text-decoration: underline;
+                                text-decoration: line-through;
                             }
                         }
                         .bottom{
